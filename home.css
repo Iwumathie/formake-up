@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+ background-color: rgba(167, 164, 164, 0.301); 
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin-left: 30px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.nav-logo {
+    text-decoration: none;
+    font-size: 19px;
+    background-color: rgba(238, 162, 248, 0.306);
+    padding: 15px;
+    border-radius: 20px;
+    color: red;
+}
+.active {
+    background-color: rgba(238, 162, 248, 0.306);
+    padding: 15px;
+    border-radius: 20px;
+    color: red;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    
+}
+.hero-right img  {
+    /* display: flex; */
+    width: 600px;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 30px;
+   background-color: rgb(249, 158, 225);
+
+    
+}
+.hero-img  {
+    display: flex;
+   margin: 0 auto; 
+}
+
+.hero-img img  {
+    width: 300px;
+
+}
+
+.hero-left {
+    margin: 100px;
+}
+.hero-left h1 {
+    padding-bottom: 20px;
+    line-height: 23px;
+}
+
+.hero-left p {
+    padding-bottom: 20px;
+    line-height: 20px;
+    word-spacing: 6px;
+    font-size: 20px;
+}
+.hero-btn {
+    display: flex;
+    column-gap:   20px;
+}
+.btn1 , .btn2 {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+}
+.btn2 {
+    background: none;
+    border: 2px solid brown;
+    color: brown;
+}
+@media only screen and (max-width: 600px){
+
+     ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-logo{
+        display: flex;
+        margin-top: 20px;
+    }
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .hero-right img{
+    
+        width: 100%;
+        margin: 0 auto;
+    }
+.hero-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    width: 150px;
+    
+}
+}
