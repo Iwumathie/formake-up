@@ -118,25 +118,33 @@ nav ul li a:hover{
 .contact-page {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     margin: 30px;
     padding: 0px;
     
 }
 .time , .location , .phone {
-    padding: 30px;
+    padding: 20px;
     align-content: center;
     border-radius: 20px;
     border: 2px solid brown;
    color: brown;
    box-shadow: 0 0 10px blueviolet;
+
+}
+.spicify-contact{
+    display: flex;
+    gap: 40px;
 }
 .icon1 , .icon2 , .icon3 {
     font-size: 50px;
-    text-align: center;
+    text-align: center;~
 }
 .time p , .location p , .phone p {
     padding: 10px;
+    text-align: center;
+}
+.time h2 , .location h2 , .phone h2 {
     text-align: center;
 }
 
@@ -204,5 +212,32 @@ nav ul li a:hover{
 .hero-left h1 {
     line-height: 30px;
 }
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;px;
+    /* justify-content: center; */
+   
+    }
+    .time p , .location p , .phone p{
+        font-size: 18px;
+    }
+    .phone {
+      padding: 20px;
+      width: 200px;
+      
+      gap: 20px;
+    }
+    .spicify-contact{
+        display: flex;
+        gap: 15px;
+       
+        
+        }
+    
+
+    }
+    
 
 }
