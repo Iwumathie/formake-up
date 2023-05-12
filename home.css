@@ -45,14 +45,14 @@ nav ul li a:hover{
     padding: 15px;
     border-radius: 20px;
     color: red;
-    box-shadow: 0 0 10px rgb(247, 105, 231);
+    box-shadow: 0 0 5px rgb(247, 105, 231);
 }
 .active {
     background-color: rgba(238, 162, 248, 0.306);
     padding: 15px;
     border-radius: 20px;
     color: red;
-    box-shadow: 0 0 10px violet;
+    box-shadow: 0 0 5px violet;
 }
 .hero-section {
     display: flex;
@@ -129,7 +129,7 @@ nav ul li a:hover{
     align-content: center;
     border-radius: 20px;
     color: brown;
-    box-shadow: 0 0 10px blueviolet;
+    box-shadow: 0 0 5px blueviolet;
 
 }
 .spicify-contact{
@@ -151,33 +151,39 @@ nav ul li a:hover{
     display: flex;
     gap: 30px;
     justify-content: center;
+    align-items: center;
     margin: 100px;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 .common-tools {
     display: flex;
-    
     gap: 30px;
     
 }
-.my-image img , .my-image img {
+.my-image img , .my-image1 img {
     width: 150px;
     height: 130px;
     border-radius: 20px;
-   
-    box-shadow: 0 0 10px blueviolet;
+    box-shadow: 0 0 5px blueviolet;
     margin: -90px 0 0 40px;
 
 }
+
+
+
 .explain-tools , .explain-tools1 {
     background:rgb(247, 196, 196);
     border-radius: 20px;
+    box-shadow: 0 0 5px blueviolet;
+    padding: 10px;
     
-   
 }
 .set-body , .set-body1 {
-    padding: 30px;
+    padding: 10px;
     margin-top: 30px;
+}
+.explain-tools p , .explain-tools1 p {
+    font-size: 20px;
 }
 .book-appointment {
     display: flex;
@@ -203,7 +209,56 @@ nav ul li a:hover{
     text-decoration: none;
     
 }
-
+.main-make-upstyles{
+    display: flex;
+    flex-direction: column; 
+   
+    width: 90%;
+    margin: 100px;
+    /* padding: 100px; */
+    gap: 20px;
+   
+}
+/* .h22 {
+    display: flex;
+    padding-right: 870px;
+    margin: 10px;
+} */
+.make-style {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+.Eyelash , .brush , .tweezers {
+    display: flex;
+    background: rgb(250, 166, 166);
+    padding: 10px;
+    border-radius: 10px;    
+    width: 20rem;
+    gap: 20px;
+    box-shadow: 0 0 5px blueviolet;
+}
+.eyeandbrush {
+    display: flex;
+    gap: 20px;
+}
+.Eyelash .img1 , .brush .img1 , .tweezers .img1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px blueviolet;
+}
+.details {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.staa {
+    width: 100px;
+    
+}
 
 @media only screen and (max-width: 760px){
     #nav .nav-icon{
@@ -271,7 +326,7 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;px;
+    gap: 20px;
     /* justify-content: center; */
    
     }
@@ -287,11 +342,59 @@ nav ul li a:hover{
     .spicify-contact{
         display: flex;
         gap: 15px;
+     }
+     .booking-section {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
        
+     }
+     .common-tools {
+        display: flex;
+        gap: 10px;
         
-        }
-    
-
     }
-    
-
+    .explain-tools p , .explain-tools1 p{
+        font-size: 18px;
+      
+    }
+    .my-image img , .my-image1 img {
+        width: 120px;
+        margin: -90px 0 0 10px;
+    }
+    .Eyelash , .brush , .tweezers {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 220px;
+        padding: 5px;
+        align-items: center;
+    }
+    .Eyelash .img1 , .brush .img1 , .tweezers .img1 {
+        width: 130px;
+        height: 100px;
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 13px;
+    }
+    .main-make-upstyles{
+        display: flex;
+        margin: 30px;
+        padding-top: 50px;
+        
+    }
+    .eyeandbrush{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+    /* .h22 {
+       font-size: 20px;
+        padding-right: 280px; */
+        
+    }
+}
