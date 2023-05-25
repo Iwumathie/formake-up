@@ -6,23 +6,27 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-    <script defer src="main.js"></script>
+    <script src="main.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>makeupme</title>
 </head>
 <body>
+    
     <div class="makeupdiv">
         <div class="navbar">
+            
             <nav id="nav">
                 <a href="" class="nav-logo">Lucy's Make-up</a>
-                <div class="nav-icon">
+                <!-- <div class="nav-icon">
                     <ion-icon class="close" name="close-outline"></ion-icon>
                     <ion-icon class="open" name="reorder-three-outline"></ion-icon>
-                </div>
-                <ul>
+                </div> -->
+
+            
+
+                <ul class="list">
                     <li>
                     <a href="">Home</a>
                 </li>
@@ -47,8 +51,13 @@
         <a class="active" href="">Book List</a>
     </li>
 </ul>
-
-            </nav>
+<div class="hamburger" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+</nav>
+            
         </div>
        <div class="hero-section">
     <div class="hero-left" data-aos="flip-left"
@@ -73,10 +82,9 @@
     </div>
     
        </div> 
-       <div class="contact-page" data-aos="fade-down"
-       data-aos-easing="linear"
-       data-aos-duration="1500">
-        <div class="spicify-contact">
+       <div class="contact-page">
+        <div class="spicify-contact"data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="time">
                 <div class="icon1">
                   <ion-icon name="timer-outline"></ion-icon>
@@ -84,7 +92,9 @@
                   <h2>10 AM - 7PM</h2>
                   <p>Opening Hour</p>
               </div>
-              <div class="location">
+              <div class="location" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
                  <div class="icon2">
                   <ion-icon name="location-outline"></ion-icon>
                  </div>
@@ -93,7 +103,9 @@
               </div>
         </div>
         
-        <div class="phone">
+        <div class="phone"data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <div class="icon3">
                 <ion-icon name="call-outline"></ion-icon>
             </div>
@@ -154,7 +166,8 @@
     </div>
        </div>
        <div class="main-make-upstyles" data-aos="zoom-in-down">
-        <h2 class="h22">Make styles</h2>
+        <div class="all-styles">
+            <h2 class="h22">Make styles</h2>
         <div class="make-style">
             <div class="eyeandbrush">
                 <div class="Eyelash">
@@ -183,6 +196,8 @@
                 </div>
              </div>
         </div>
+        </div>
+        
 
 
        </div>
@@ -213,9 +228,14 @@
         </div>
        </div>
        <div class="videosection">
+        <!-- <div class="clips">
+            <h1>CLIPS FROM OUR PREVIOUS WORK</h1>
+        </div> -->
         <div class="first-vidoe">
             
-                <video  controls>
+                <video  controls data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <source src="firstvid.mp4" type="video/mp4">
                     <source src="firstvi.ogg" type="video/ogg">
                     
@@ -223,17 +243,149 @@
             
             
             
-                <!-- <video  controls>
+                <video  controls data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <source src="secondvid.mp4" type="video/mp4">
                     <source src="secondvi.ogg" type="video/ogg">
                     
-                </video> -->
+                </video>
             
             
         </div>
        </div>
-    </div>
 
+       <div class="our-activities">
+        <div class="activities-body">
+        <div class="events-detailing" >
+            <div class="first-home-service"data-aos="zoom-out-right">
+              <img src="3.png" alt=""> 
+              <div class="home-page">
+                <h2>Home Service</h2>
+               <p>Our home services come with prestigous <br> time and attention to a client <br> who would want our service.</p>
+              </div> 
+            </div>
+            <div class="second-home-service"data-aos="flip-down">
+                <img src="2.png" alt="">
+                <div class="home-page1">
+                    <h2>Office services</h2>
+                <p>For a client who would love to come too <br> out office or would love to book oniine, <br> it's nice you book online to avoid delays.</p>
+                </div>
+            </div>
+        </div>
+        <div class="online-booking" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+            <h2>Book For Our Services</h2>
+            <p>To get in touch with us or to make place or book a quick reservation <br> all you have to do is to click on the button below which will automatically <br> take you to a place to put in your details.</p>
+            <a href="">Online Service</a>
+        </div>
+       </div>
+    </div>
+    <div class="quality-of-service">
+        <div class="quality-given">
+            <div class="discription">
+                <h2>Why Choose Our Services</h2>
+                <p>Quality of Service, and Value of Money are  the primary elements <br> for choosing a Make Vendure. Lucy's Make-up is one of the most <br> exquisite fine beauty vendure in Lafia city with a captivating view of GEC Hills, <br> perfect ambiance, and scrumptious astonishing make-up.</p>
+            </div>
+            <div class="activities-here">
+                <div class="one-activitiy">
+                    <div class="presence">
+                        <img src="beauty.png" alt="">
+                        <h2>Quality Tools</h2>
+                    </div>
+                    <div class="presence1">
+                        <img src="beauty.png" alt="">
+                        <h2>Classic Tools</h2>
+                    </div>
+                </div>
+                <div class="two-activity">
+                    <div class="presence2">
+                        <img src="beauty.png" alt="">
+                        <h2>Skilled Artist</h2>
+                    </div>
+                    <div class="presence3">
+                        <img src="beauty.png" alt="">
+                        <h2>Best Services</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="customer-view">
+        <div class="feedback">
+            <h1>Most Rated Feedbacks</h1>
+            <div class="main-body">
+                <div class="first-people">
+                <div class="person1">
+                  <div class="image1">
+                    <img src="feedback.jpg" alt="">
+                  </div>  
+                    <div class="cover1">
+                        <h2>Martha Sule</h2>
+                        <img src="3star.png" alt="">
+                        <p>from start to finish, lovely experience. <br> Hostess very pleasant, wait staff john <br> was wonderful and attentive, food plentiful <br> and delicious, desserts out of this world"</p>
+                    </div>
+
+                </div>
+                <div class="person2">
+                    <div class="image2">
+                        <img src="feedback.jpg" alt="">
+                      </div>  
+                    <div class="cover2">
+                        <h2>Ramatu Ozabiza</h2>
+                        <img src="3star.png" alt="">
+                        <p>from start to finish, lovely experience. <br> Hostess very pleasant, wait staff john <br> was wonderful and attentive, food plentiful <br> and delicious, desserts out of this world"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="second-people">
+                <div class="person3">
+                    <div class="image3">
+                        <img src="feedback.jpg" alt="">
+                      </div>  
+                    <div class="cover3">
+                        <h2>Gospel Nathan</h2>
+                        <img src="3star.png" alt="">
+                        <p>from start to finish, lovely experience. <br> Hostess very pleasant, wait staff john <br> was wonderful and attentive, food plentiful <br> and delicious, desserts out of this world"</p>
+                    </div>
+
+                </div>
+                <div class="person4">
+                    <div class="image4">
+                        <img src="feedback.jpg" alt="">
+                      </div>  
+                    <div class="cover4">
+                        <h2>Jason Junior</h2>
+                        <img src="3star.png" alt="">
+                        <p>from start to finish, lovely experience. <br> Hostess very pleasant, wait staff john <br> was wonderful and attentive, food plentiful <br> and delicious, desserts out of this world"</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="news-letter">
+        <div class="body-form">
+            <div class="form-positioning">
+                <div class="detalss">
+                    <h2>Join To Get News</h2>
+                    <p>Get notified with the latest news and recent <br> offers from the Lucy's Make-up</p>
+                   </div>
+                    <form class="form">
+                        <div class="form1">
+                            <!-- <label for="email"></label> -->
+                            <input type="email"placeholder="Email Address" ><a href="">Join</a>
+                        </div>
+                       
+                    </form>
+            </div>
+           
+        </div>
+    </div>
+    </div>
+   
 
     <script>
         AOS.init();
