@@ -5,6 +5,7 @@ function myFunction(x) {
     const heroSection = document.querySelector(".hero-section")
     if(x.classList.toggle("change") ){ ;
     navbar.style.visibility="visible";
+    navbar.style.opacity="1"
     heroSection.style.marginTop="350px"
  }
 else{

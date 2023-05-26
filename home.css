@@ -675,6 +675,7 @@ nav ul li a:hover{
        position: absolute;
         right: 0;
         visibility: hidden;
+        opacity: 0;
         height: 15rem;
         transition: 0.5s;
         padding: 10px;
@@ -683,6 +684,7 @@ nav ul li a:hover{
         display: flex;
         flex-direction: column;
         background: rgba(0,0,0,0.2);
+        transition: visibility 0s, opacity 0.5s linear;
     }
     .active{
         background-color: none;
