@@ -9,7 +9,7 @@ function myFunction(x) {
     heroSection.style.marginTop="350px"
  }
 else{
-    navbar.style.display="";
+    navbar.style.display="none";
     navbar.style.background="";
     heroSection.style.marginTop="0px"
  }
