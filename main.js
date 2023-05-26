@@ -4,13 +4,12 @@ function myFunction(x) {
 
     const heroSection = document.querySelector(".hero-section")
     if(x.classList.toggle("change") ){ ;
-    navbar.style.display="inline-block";
-    navbar.style.background="rgba(0,0,0,0.2)";
+    navbar.style.visibility="visible";
     heroSection.style.marginTop="350px"
  }
 else{
-    navbar.style.display="none";
-    navbar.style.background="";
+    navbar.style.visibility="";
+    // navbar.style.background="";
     heroSection.style.marginTop="0px"
  }
 

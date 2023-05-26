@@ -674,7 +674,7 @@ nav ul li a:hover{
      nav ul {
        position: absolute;
         right: 0;
-        display: none;
+        visibility: hidden;
         height: 15rem;
         transition: 0.5s;
         padding: 10px;
@@ -682,7 +682,7 @@ nav ul li a:hover{
         justify-content: center;
         display: flex;
         flex-direction: column;
-         
+        background: rgba(0,0,0,0.2);
     }
     .active{
         background-color: none;
@@ -690,7 +690,7 @@ nav ul li a:hover{
        
     }
     ul li {
-        margin: 20px;
+        margin: 10px;
         text-align: center;
     }
     ul li a {
