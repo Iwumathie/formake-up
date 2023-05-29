@@ -300,13 +300,15 @@ nav ul li a:hover{
     }
 .demo {
     display: flex;
+    justify-items: center;
     margin: 0 auto;
     background: rgb(250, 166, 166);
     width: 1100px;
     border-radius: 20px;
-    padding: 5px;
-   
+    padding: 5px; 
 }
+
+
 .demodetails {
     display: flex;
     justify-content: center;
@@ -315,11 +317,9 @@ nav ul li a:hover{
     
 }
 
-.dem , .dem1 , .trad {
-   
+.dem , .dem1 , .trad {  
     width: 220px;
     margin: 5px;
-    
     border-radius: 20px;
     box-shadow: 0 0 5px blueviolet;
 } 
@@ -358,8 +358,7 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    margin: 100px;
+    margin-top: 100px;
 }
 /* .videosection h1 {
     background: rgb(250, 166, 166);
@@ -397,8 +396,7 @@ nav ul li a:hover{
 
 .our-activities {
     display: flex;
-   align-items: center;
-  
+    align-items: center;
     margin-top: 700px;
 }
 .activities-body{
@@ -463,8 +461,12 @@ nav ul li a:hover{
 }
 .quality-of-service{
     display: flex;
-    margin-top: 100px;
+    padding-top: 100px;
+    width: 60rem;
+    margin: 0 auto;
 }
+
+
 .quality-given{
     display: flex;
     align-items: center;
@@ -633,7 +635,7 @@ nav ul li a:hover{
    border: none;
     outline: none;
 }
-@media only screen and (max-width: 570px){
+@media only screen and (max-width: 760px){
 
     
 .hamburger {
@@ -684,7 +686,7 @@ nav ul li a:hover{
         display: flex;
         flex-direction: column;
         background: rgba(0,0,0,0.2);
-        transition: visibility 0s, opacity 0.5s linear;
+        transition: visibility 0.3s, opacity 0.5s linear;
     }
     .active{
         background-color: none;
@@ -759,7 +761,6 @@ nav ul li a:hover{
     .phone {
       padding: 20px;
       width: 200px;
-      
       gap: 20px;
     }
     .spicify-contact{
@@ -779,7 +780,7 @@ nav ul li a:hover{
         gap: 10px;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
     }
     .explain-tools p , .explain-tools1 p{
@@ -838,7 +839,6 @@ nav ul li a:hover{
     }
 
     .make-style:nth-child(2){
-        display: ;
         flex-wrap: wrap;
      }
 
@@ -868,35 +868,47 @@ nav ul li a:hover{
        
     }
     
-    .trad , .dem1 {
-        width: 130px;
-        height: 260px;
-        justify-content: center;
-      
-        margin: 6px;
-    }
-    .dem1 {
-        width: 170px;
-       
-    }
-    .demoimages {
-        
-        display: flex;
-        
-        
-        
-    }
-    .dem {
-        display: none;
 
+    .demodetails{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .demoimages{
+        display: flex;
+        column-gap: 15px;
+        width: 100%;
+    }
+
+    .demoimages img{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .demoimages img:nth-child(3){
+        display: flex;
+        flex-grow: 4;
+    }
+
+    .demoimages img:nth-child(1){
+        width: 0;
+        display: none;  
+    }
+
+    .dem img{
+        width: 0;
+        display: none;
     }
     
        
     .demo {
         display: flex;
-        width: 350px;
-        height: 590px;
-        
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+        height: fit-content;
+        padding: 3px;
     }
     .discounts {
         display: flex;
@@ -907,18 +919,26 @@ nav ul li a:hover{
         /* margin: 0 auto; */
         padding: -5px;
     }
+
+
+.videosection{
+    width: 10rem;
+    margin: 0 auto;
+}
+
     .first-vidoe {
         margin-top: 200px;
        justify-content: center;
         padding: 10px;
         background: none;
-      width: 370px;
-      height: 250px;
+      width: 330px;
+      height: 220px;
     }
     .our-activities{
         display: flex;
         flex-direction: column;
-        margin-top: 200px;
+        /* padding-top: 20px; */
+        padding: 10px;
     } 
     .activities-body{
         display: flex;
@@ -939,15 +959,24 @@ nav ul li a:hover{
         font-size: 15px;
     }
     .home-page1  h2, .home-page  h2{
-        font-size: 25px;
+        font-size: 15px;
     }
     .quality-of-service{
-        display: flex;
-        flex-direction: column;
+       width: 100%;
+       /* padding: 3rem; */
+       /* display: flex; */
+       justify-content: center;
      }
      .quality-given{
-        display: flex;
+       
+        margin: 29px;
         flex-direction: column;
+     }
+     .activities-here{
+        width: 19rem;
+     }
+     .presence h2, .presence1 h2, .presence2 h2, .presence3 h2 {
+        font-size: 16px;
      }
      .discription h2 {
         font-size: 31px;
@@ -962,6 +991,7 @@ nav ul li a:hover{
         display: flex;
         margin: 0 auto;
         margin-top: 100px;
+        padding: 20px;
      }
      .feedback {
         display: flex;
@@ -1032,4 +1062,17 @@ nav ul li a:hover{
         font-size: large;
      }
 
+}
+
+@media only screen and (max-width: 320px){
+    .Eyelash , .brush , .tweezers {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: 190px;
+        padding: 2px;
+        align-items: center;
+    }
+
+    
 }
