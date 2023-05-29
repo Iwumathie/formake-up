@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body,html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -1036,8 +1036,7 @@ nav ul li a:hover{
         margin: 0 auto;
         margin-top: 100px;
         padding: 10px;
-        width: 22rem;
-        
+        width: 22rem;    
      } 
 
      .form1{
