@@ -26,33 +26,27 @@ body,html {
 .navbar{
     width: 100%;
     background: rgb(2, 202, 2);
-    height: 80px;
+    padding: 10px;
     /* align-content: center; */
 }
 
- /* .close, .open{
-    display: flex;
-    position: absolute;
-}
-.ul {
-    display: flex;
-    margin-left: 200px;
-} */
 #nav {
     /* background: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    /* margin: 20px; */
 }
 nav ul {
     /* margin-left: 38rem; */
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-right: 20px;
     /* align-content: center; */
 }
 nav ul li {
-    margin-left: 30px;
+    margin-left: 20px;
     list-style: none;
 }
 
@@ -62,10 +56,15 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    /* background-color: red; */
+    background-color: red;
+   padding: 35px 3px 35px 2px;
+    border-radius: 5px;
+    width: fit-content;
     color: white;
-    border-bottom: 2px solid red;
+    /* border-bottom: 2px solid red; */
 }
+
+
 .nav-logo {
     text-decoration: none;
     font-size: 19px;
@@ -76,13 +75,7 @@ nav ul li a:hover{
     color: red;
     box-shadow: 0 0 5px rgb(247, 105, 231);
 }
-.active {
-    background-color: rgba(238, 162, 248, 0.306);
-    padding: 15px;
-    border-radius: 20px;
-    color: red;
-    box-shadow: 0 0 5px violet;
-}
+
 
 .hero-section {
     display: flex;
@@ -680,19 +673,20 @@ nav ul li a:hover{
         opacity: 0;
         height: 15rem;
         transition: 0.5s;
-        padding: 10px;
+        padding: 20px;
         margin-top: 450px; 
         justify-content: center;
         display: flex;
         flex-direction: column;
         background: rgba(0,0,0,0.2);
-        transition: visibility 0.3s, opacity 0.5s linear;
+        transition: visibility 0.3s,  linear;
     }
     .active{
         background-color: none;
         border-radius: none;
        
     }
+
     ul li {
         margin: 10px;
         text-align: center;
@@ -700,6 +694,16 @@ nav ul li a:hover{
     ul li a {
         font-size: 3px;
     }
+
+    nav ul li a:hover{
+        background-color: red;
+       padding: 10px;
+        border-radius: 5px;
+        width: fit-content;
+        color: white;
+        /* border-bottom: 2px solid red; */
+    }
+    
 
     
     

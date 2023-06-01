@@ -15,3 +15,21 @@ else{
  }
 
   }
+
+//   function myLayout(){
+
+//   }
+//   const header = document.createElement("div")
+//   header.classList.add("nav");
+//   header.innerHTML="This is a div";
+
+// console.log(header.lastChild.data);
+
+//   const layout = (header) => {
+//     return(
+//         <div>
+//         <h1>Hello World</h1>
+//         <div></div>
+//         </div>
+//     )
+//   }
