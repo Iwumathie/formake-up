@@ -173,42 +173,42 @@ nav ul li a:hover{
     word-wrap: break-word;
 }
 .booking-section {
-    display: flex;
-    gap: 50px;
-    padding: 5px;
-    /* align-items: center; */
-    /* text-align: center; */
-    margin: 100px;
+    max-width: 70rem;
+    margin: 0 auto;
+    /* padding: 5px; */
+    /* margin: 100px; */
     padding-top: 200px;
     /* background: black; */
 }
 .common-tools {
     display: flex;
-    gap: 30px;
-    padding: 40px;
-    max-width: 40rem;
-    margin: 0 auto;
-    /* text-align: center; */
-   
-    /* align-items: center; */
+    justify-content: space-between;
+    /* padding: 40px; */
+    align-items: center;
+    margin-bottom: 50px;
     
 }
+
+.flex-card{
+    display: flex;
+    column-gap: 10px;
+}
+
 .my-image img , .my-image1 img {
     display: flex;
-    width: 130px;
-    height: 130px;
+    width: 170px;
+    height: 150px;
     align-items: center;
     border-radius: 20px;
     margin: 0 auto;
     margin-top: -100px;
     box-shadow: 0 0 5px blueviolet;
    
-
 }
 
 
 
-.explain-tools , .explain-tools1 {
+.explain-tools {
     background:rgb(247, 196, 196);
     border-radius: 20px;
     box-shadow: 0 0 5px blueviolet;
@@ -216,18 +216,19 @@ nav ul li a:hover{
     margin: 5px;
     align-items: center;
 }
-.set-body , .set-body1 {
+.set-body{
     padding: 10px;
     margin-top: 30px;
 }
-.explain-tools p , .explain-tools1 p {
+.explain-tools p{
     font-size: 20px;
 }
 .book-appointment {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    margin-left: 2;
+}
+
+.content{
+    margin-bottom: 30px;
 }
 .book-appointment h2 {
     font-size: 35px;
@@ -240,8 +241,8 @@ nav ul li a:hover{
 .book-appointment a {
     background: brown;
     color: white;
+    margin-top: 30px;
     padding: 15px;
-    width: 160px;
     text-align: center;
     border-radius: 15px;
     text-decoration: none;
@@ -778,21 +779,20 @@ nav ul li a:hover{
         gap: 15px;
      }
      .booking-section {
-        display: flex; 
-        flex-direction: column;
-        margin: 15px;
-       align-items: center;
+       
        
      }
      .common-tools {
         display: flex;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-        width: 95%;
-        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding: 20px;
     }
-    .explain-tools p , .explain-tools1 p{
+    .flex-card{
+        margin-bottom: 30px;
+    }
+
+    .explain-tools p {
         font-size: 14px;
         justify-content: center;
         align-items: center;
@@ -802,7 +802,7 @@ nav ul li a:hover{
        height: 470px;
        flex-direction: column;
     } */
-    .explain-tools  h2, .explain-tools1 h2{
+    .explain-tools  h2{
         font-size: 15px;
     }
     .book-appointment h2 {
